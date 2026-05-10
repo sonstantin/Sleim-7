@@ -126,6 +126,6 @@ while True:
 
     wiederholen = input("Möchtest du den Code erneut ausführen? (ja/nein): ")
     if wiederholen.lower() != "ja":
-        ende = input("Wollst du das Pogramm wirklich beenden???ja/nein ")
+        ende = input("Wollst du das Pogramm wirklich beenden ???ja/nein ")
         if ende == "j" or ende == "ja":
             break  # Beendet die Schleife, wenn die Antwort nicht "ja" ist
